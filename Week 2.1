@@ -8,3 +8,18 @@
 public static boolean doubleExpression(double a, double b, double c) {
     return Math.abs((a+b)-c)<1e-4;
 }
+
+
+
+Реализуйте метод, который возвращает букву, стоящую в таблице UNICODE после символа "\" (обратный слэш) на расстоянии a.
+
+В качестве примера написано заведомо неправильное выражение. Исправьте его.
+
+
+public static char charExpression(int a) {
+    int b = '\\';
+    int total = b+a;
+    char unicode = (char) total;
+    return unicode;
+}
+
